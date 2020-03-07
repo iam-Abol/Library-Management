@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include <iostream>
 #include <vector>
+#include "Library.h"
+#include "BookInformationAndBookSubject.h"
 using namespace std;
 struct test{
 	float x;
@@ -8,12 +10,8 @@ struct test{
 };
 int _tmain(int argc, _TCHAR* argv[])
 {
-	vector <test> testing;
-	test a;
-	a.x = 1.5;
-	a.a = 'l';
-	testing.push_back(a);
-	cout << testing[0].a << endl;
+	Library obj;
+	obj.removeBook("Abolfazl");
 
 	system("pause");
 	return 0;
