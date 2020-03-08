@@ -15,5 +15,9 @@ public:
 	Library();
 	~Library();
 	void removeBook(string name);
+
+	string getName();
+	void displayBooks();
+	void addBook();
 };
  

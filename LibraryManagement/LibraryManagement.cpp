@@ -11,7 +11,7 @@ struct test{
 int _tmain(int argc, _TCHAR* argv[])
 {
 	Library obj;
-	obj.removeBook("Abolfazl");
+	obj.removeBook("BIBI");
 
 	system("pause");
 	return 0;
